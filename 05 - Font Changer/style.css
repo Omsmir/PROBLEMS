@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 550px;
+    display: grid;
+    place-content: center;
+}
+select {
+    width: 550px;
+    padding: 10px;
+}
+p{
+     font-family: Arial;
+     padding: 10px;
+     width: 550px;
+     text-align: center;
+     font-size: 25px;
+     background-color: #eee;
+     border-radius: 25px;
+}

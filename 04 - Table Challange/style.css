@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 750px;
+}
+ table {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table caption {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+table tbody {
+    width: 80%;
+    display: grid;
+    place-content: center;
+}
+
+table tbody tr{
+   width: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ table tbody tr td {
+    width: 50%;
+    margin: 1px;
+    background-color: #fff;
+    padding: 10px;
+}
