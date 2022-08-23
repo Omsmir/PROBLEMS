@@ -16,17 +16,21 @@
         M: 1000
     }
 
-    
+    let result = 0
 const newObj = {}
 
     for(let key in obj){
 
         if(s.match(key)){
-        console.log(obj[key])
+        // console.log(obj[key])
+        result += obj[key]
+
+        console.log(result)
+
         }
     }
 
 };
 
 
-romanToInt("IV")
+romanToInt("IVC")
