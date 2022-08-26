@@ -9,4 +9,4 @@ const ReverseFunc = (ele) =>{
 
 ReverseFunc("omar") //ramo
 ```
-* **First** We Need To Think About What We Needs To Use To Solve The Problems, To Find The Clue,* **Second** We Use [...(Input)] To Switch The Word Characters To Array,* **Third** We Used The Reverse() Func To Reverse The Array Characters, * ***Last*** Step We Used The Join("") Method To Switch Again To String. </P>
+* **First** We Need To Think About What We Needs To Use To Solve The Problems, To Find The Clue <br/>* **Second** We Use [...(Input)] To Switch The Word Characters To Array,* **Third** We Used The Reverse() Func To Reverse The Array Characters, * ***Last*** Step We Used The Join("") Method To Switch Again To String. </P>
